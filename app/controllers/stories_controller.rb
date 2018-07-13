@@ -58,6 +58,10 @@ class StoriesController < ApplicationController
     end
   end
 
+  def show_guidelines
+    render :partial => "guideline"
+  end
+
   def fetch_url_attributes
     s = Story.new
     s.fetching_ip = request.remote_ip

@@ -38,3 +38,5 @@ group :test, :development do
   gem "sqlite3"
   gem "faker"
 end
+
+gem 'render_async', '~> 1.2.0'
